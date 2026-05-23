@@ -1,6 +1,6 @@
 # Masctota Virtual Yuumi
 Codigo de python para mascota virtual
-Aqui esta mi mascota virtual Yuumi! , Hice esta mascota virtual basada en una especie de togodachi
+Aqui esta mi mascota virtual Yuumi! , Hice esta mascota virtual basada en una especie de tamagotchi
 tiene estadisticas de felizidad y energia, tambien tiene 4 diferentes opciones para jugar con el.
 
 #1 Alimentar
