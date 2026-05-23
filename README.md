@@ -3,6 +3,11 @@ Codigo de python para mascota virtual
 Aqui esta mi mascota virtual Yuumi! , Hice esta mascota virtual basada en una especie de togodachi
 tiene estadisticas de felizidad y energia, tambien tiene 4 diferentes opciones para jugar con el.
 
+   /\__/|
+  ( o  o )  
+  /      \
+ (        ) 
+
 #1 Alimentar
  Con esto podras "alimentar" a tu mascota virtual para subirle la energia y felicidad
 
