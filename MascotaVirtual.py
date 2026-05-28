@@ -1,32 +1,33 @@
-nombre = "Yummi"
+nombre = "Jo"
 energia = 100
 felicidad = 100
-print(f"Energía inicial de: {nombre}, energía: {energia}, felicidad: {felicidad}")
+print(f"Energia inicial{nombre}, energia{energia}, felecidaD {felicidad}")
 while energia > 0:
-    print("¿Que quieres hacer?:")
-    print("1.- Alimentar")
-    print("2.- Jugar")
-    print("3.- Ver estado de salud")
-    print("4.- No hacer nada")
-    opcion = input("Seleccione: ")
-    if opcion == "1":
-        energia = energia + 20
-        felicidad = felicidad + 1
-        print(f"Alimentaste  a {nombre}, está muy feliz contigo.. ")
-    elif opcion == "2":
-        energia = energia - 15
-        felicidad = felicidad + 20
-        print(f"{nombre} esta cansado pero felíz de jugar contigo")
-    elif opcion == "3":
-        print("    /\__/|   ")
-        print("   ( o  o )  ")
-        print("   /      \  ")
-        print("  (        ) ")
-        print(f"Energia: {energia}")
-        print(f"Felicidad: {felicidad}")
-    elif opcion == "4":
-        felicidad = felicidad - 30
-        energia = energia - 5
-        print(f"{nombre} está muy aburrido....")
+    print("¿Que quieres hacer?")
+    print("1. Alimaentar")
+    print("2. Ver estado de salud")
+    print("3. Jugar")
+    print("4. No hacer nada")
+    opcion = input("seleccione:")
+    if opcion =="1":
+        energia = energia
+        felicidad = felicidad
+        print(f"Alimentarce a {nombre},esta muy feliz de jugar conmigo:")
+    elif opcion =="2":
+        energia = energia -15
+        felicidad = felicidad +20
+    elif opcion =="3":
+        print("    /\__  ")
+        print("   (   * \___")
+        print("   /         O")
+        print("  /    (_____/")
+        print(" /        /")
+        print("/________/ ")
+        print(f"energia: {energia}")
+        print(f"Felecidad: {felicidad}")
+    elif opcion =="4":
+        energia = energia -5
+        felicidad = felicidad +10
+        print(f"{nombre} esta muy aburrido")
     else:
-        print("Error de ingreso")
+        print("error ingresado")
